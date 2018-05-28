@@ -11,4 +11,5 @@ output:
 ```{r}
 se <- function(x){
   sd(x)/length(x)
+  sd(x)
 }
